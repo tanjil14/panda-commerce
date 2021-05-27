@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap");
+body,
+html {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin-bottom: 80px;
+}
+.orange-bg {
+  background: #feeae9;
+  border-radius: 10px;
+}
+.carousel-item {
+  padding: 20px 40px;
+}
+.price {
+  font-size: 41px;
+  color: #ff136f;
+}
+.buy-now-button {
+  background-image: linear-gradient(45deg, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 8px;
+}
+.cat1 h2,
+.cat2 h2,
+.cat3 h2 {
+  font-size: 30px;
+}
+.cat1 {
+  background-image: linear-gradient(to right, #ff9c35 0%, #ffd019 100%);
+}
+.cat2 {
+  background-image: linear-gradient(to right, #ff589b, #ff136f);
+}
+.cat3 {
+  background-image: linear-gradient(to bottom right, #4289ff, #3f07f8);
+}
+.categories img {
+  width: 100px;
+}
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer {
+  background: white;
+  border-top: none;
+}
+#subscribe {
+  height: 300px;
+}
+.input > button {
+  border-radius: 0 5px 5px 0;
+}
+.input > input {
+  border-radius: 5px 0 0 5px;
+}
+#subscribe h6 {
+  color: gray;
+}
